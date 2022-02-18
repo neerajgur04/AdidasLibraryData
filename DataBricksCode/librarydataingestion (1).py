@@ -43,7 +43,7 @@ display(dbutils.fs.ls("/mnt/librarydata/stg"))
 # COMMAND ----------
 
 # MAGIC %sh 
-# MAGIC wget --continue https://s3-eu-west-1.amazonaws.com/csparkdata/ol_cdump.json -O /dbfs/mnt/librarydata/stg/11ol_cdump.json
+# MAGIC wget --continue https://s3-eu-west-1.amazonaws.com/csparkdata/ol_cdump.json -O /dbfs/mnt/librarydata/stg/ol_cdump.json
 
 # COMMAND ----------
 
